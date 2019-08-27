@@ -1,5 +1,3 @@
-console.log('Client side JS file is loaded!')
-
 //Controlla il funzionamento dell'elemento HTML 'form' dove questo script viene caricato
 const weatherForm=document.querySelector('form')
 //Controlla il funzionamento dell'elemento HTML 'input' dove questo script viene caricato

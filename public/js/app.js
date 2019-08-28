@@ -9,7 +9,7 @@ const messageTwo=document.querySelector('#message-2')
 
 const checkWeather=(location)=>{
     //Fetch data from the URL and then run a callback function
-    fetch('http://localhost:3000/weather?address=' + location).then((response)=>{
+    fetch('/weather?address=' + location).then((response)=>{
         //Parse response in json format and then run a callback function
         response.json().then((data)=>{
             if(data.error){
